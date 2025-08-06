@@ -19,11 +19,12 @@
 }
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+    
 }
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 section{
     min-height: 100vh;
@@ -565,3 +566,4 @@ span{
         font-size: 50%;
     }
 }
+
