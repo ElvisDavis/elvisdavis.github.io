@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style/style.css">
     <title>Fitness Gym</title>
@@ -20,7 +21,7 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#plans">Pricing</a></li>
-            <li><a href="reviews">Review</a></li>
+            <li><a href="#review">Review</a></li>
         </ul>
 
         <div class="top-btn">
@@ -30,11 +31,11 @@
 
     <!--Home Section -->
     <section class="home" id="home">
-        <div class="home-content">
+        <div class="home-content" data-aos="zoom-in">
 
             <h3>Buiild Your</h3>
             <h1>Dream Physique</h1>
-            <h3><span class="multiple-text">BodyBuilng</span></h3>
+            <h3><span class="multiple-text"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, delectus voluptates aspernatur voluptate
                 voluptatibus reiciendis quidem facilis dolorem blanditiis corporis natus. Praesentium, voluptatem
                 quaerat natus in nobis tempore at ullam.</p>
@@ -55,27 +56,27 @@
                 <h4>Physical Fitness</h4>
             </div>
 
-             <div class="row">
+            <div class="row">
                 <img src="img/image2.jpg" alt="">
                 <h4>Weight Gain</h4>
             </div>
 
-             <div class="row">
+            <div class="row">
                 <img src="img/image3.jpg" alt="">
                 <h4>Strength Training</h4>
             </div>
 
-             <div class="row">
+            <div class="row">
                 <img src="img/image4.jpg" alt="">
                 <h4>Fat Lose</h4>
             </div>
 
-             <div class="row">
+            <div class="row">
                 <img src="img/image5.jpg" alt="">
                 <h4>WeightLifting</h4>
             </div>
 
-             <div class="row">
+            <div class="row">
                 <img src="img/about.jpg" alt="">
                 <h4>Running</h4>
             </div>
@@ -95,15 +96,137 @@
                 friend and stay motivated
             </p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rerum!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, magnam nesciunt. Obcaecati, amet minima. Corrupti, magnam totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate, iste voluptatum recusandae alias veritatis.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, magnam nesciunt. Obcaecati, amet
+                minima. Corrupti, magnam totam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate, iste voluptatum
+                recusandae alias veritatis.</p>
 
             <a href="#" class="btn">Book a Free Class</a>
         </div>
     </section>
 
+    <!--Pricin Secttion Code-->
+    <section class="plans" id="plans">
+        <h2 class="heading">Our <span>Plans</span></h2>
 
+        <div class="plans-content">
+            <div class="box">
+                <h3>BASIC</h3>
+                <h2><span>$100/Month</span></h2>
+                <ul>
+                    <li>Smart Workout Plan</li>
+                    <li>At Home Workout</li>
+                </ul>
+                <a href="#">
+                    Join Now
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
 
+            <div class="box">
+                <h3>PRO</h3>
+                <h2><span>$150/Month</span></h2>
+                <ul>
+                    <li>Pro GYMs</li>
+                    <li>Smart Workout Plan</li>
+                    <li>At Home Workout</li>
+                </ul>
+                <a href="#">
+                    Join Now
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>PREMIUM</h3>
+                <h2><span>$300/Month</span></h2>
+                <ul>
+                    <li>ELITE GYMs and Classes</li>
+                    <li>Smart Workout Plan</li>
+                    <li>At Home Workout</li>
+                    <li>Personal Training</li>
+                </ul>
+                <a href="#">
+                    Join Now
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Review Section Code-->
+    <section class="review" id="review">
+        <div class="review-box">
+            <h2 class="heading">Client <span>Reviews</span></h2>
+            <div class="wrapper">
+                <div class="review-item">
+                    <img src="img/1.jpg" alt="">
+                    <h2>John</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugit.</p>
+                </div>
+                <div class="review-item">
+                    <img src="img/2.jpg" alt="">
+                    <h2>Steve</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugit.</p>
+                </div>
+                <div class="review-item">
+                    <img src="img/3.jpg" alt="">
+                    <h2>David</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section Code-->
+
+    <footer class="footer">
+        <div class="social">
+            <a href=""><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2025 Fitness Gym. All rights reserved.
+            <br>
+            Designed by <a>webSite</a>
+
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+           offset:300,
+           duration: 1400,
+        });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script/script.js"></script>
 
 </body>
 
